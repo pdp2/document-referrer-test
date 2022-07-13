@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Document referrer test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <p></p>The document referrer is <span id="referrerValue"></span></p>
+    <script>
+        const referrerValueEl = document.getElementById('referrerValue');
+        referrerValueEl.innerText = document.referrer;
+    </script>
+</body>
+</html>
